@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title></title>
+    </head>
+    <body>
+        <script>
+            var arr=[];
+            for (var i =0; i<20;i++)
+            {
+              const min = 0;
+              const max = 999;
+               arr.push(Math.floor(Math.random () * (max - min + 1) + min));
+            }
+            document.write("Random numbers : "+ arr + "<br>  Ascending order  : " + arr.sort());
+           
+        </script>
+    </body>
+</html>
